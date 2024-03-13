@@ -1,0 +1,98 @@
+{
+  "ot_user_id": "1",
+  "ot_risk_input": {
+    "ot_user_balance": 1000,
+    "ot_user_diversification": 0.3,
+    "ot_user_riskrewardratio": 2,
+    "ot_user_limitpertrade": 0.1,
+    "ot_user_timeframe": "daily",
+    "position-data": [
+      {
+        "ot_pos_dealid": "BTC",
+        "ot_pos_cc": "USD",
+        "ot_pos_exchange": 1,
+        "ot_pos_margin": 100,
+        "ot_pos_size": 1,
+        "ot_instr_name": "BTC/USD",
+        "ot_instr_id": "BTC/USD",
+        "ot_instr_type": "CRYPTO",
+        "ot_pos_direction": "BUY",
+        "ot_pos_opening": 35251,
+        "ot_instr_offer": 47111,
+        "ot_pos_contractsize": "1000",
+        "ot_risk_check": "true",
+        "ot_pos_controlled": "true",
+        "ot_pos_stop": 33100
+      },
+       {
+        "ot_pos_dealid": "ETH",
+        "ot_pos_cc": "USD",
+        "ot_pos_exchange": 1,
+        "ot_pos_margin": 100,
+        "ot_pos_size": 1,
+        "ot_instr_name": "ETH/USD",
+        "ot_instr_id": "ETH/USD",
+        "ot_instr_type": "CRYPTO",
+        "ot_pos_direction": "BUY",
+        "ot_pos_opening": 35251,
+        "ot_instr_offer": 47111,
+        "ot_pos_contractsize": "1000",
+        "ot_risk_check": "true",
+        "ot_pos_controlled": "true"
+      }
+    ]
+  },
+  "ot_indicators": [
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "bbw",
+      "ot_indicator_value": 10000
+    },
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "atr",
+      "ot_indicator_value": 10
+    },
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "sma",
+      "ot_indicator_value": 45000
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "lma",
+      "ot_indicator_value": 42000
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "rsi",
+      "ot_indicator_value": 87
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "ubb",
+      "ot_indicator_value": 46500
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "lbb",
+      "ot_indicator_value": 37500
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "macd",
+      "ot_indicator_value": 1475
+    }
+    ,
+    {
+      "ot_instr_name": "BTC/USD",
+      "ot_indicator_type": "macd-signal",
+      "ot_indicator_value": 741
+    }
+  ]
+}
